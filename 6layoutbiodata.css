@@ -1,0 +1,617 @@
+header {
+  background-color: rgb(54, 43, 199);
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  transform: translatey(30px) translateX(20px) scale(1.5);
+}
+header .logo img {
+  width: 50px;
+  height: 50px;
+}
+header .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+ul li {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.gambarr img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* container2 */
+/* container 2 */
+.container2 {
+  margin: 30px 0;
+}
+.container2 .pemain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 .p1 {
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container2 .p1 img {
+  width: 217px;
+  height: 252px;
+}
+.container2 .p1 .pp1 {
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 30px;
+  color: white;
+  background-color: blue;
+  padding: 3px;
+}
+
+.container2 .p1 h3 {
+  color: blue;
+}
+
+.container2 .pemain .identitas {
+  width: 50%;
+}
+
+.container2 .pemain .identitas .p12 {
+  width: 75%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: left;
+}
+
+.container2 .biodata {
+  width: 65%;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 .biodata .kiri {
+  font-weight: bold;
+  color: gray;
+}
+
+.container2 .biodata .kanan {
+  font-weight: bold;
+}
+
+/* Pembungkus  */
+.pembungkus .statistik {
+  width: 85%;
+  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pembungkus .statistik h1 {
+  color: blue;
+  margin: 30px;
+}
+.pembungkus .statistik h2 {
+  color: blue;
+}
+.pembungkus .statistik p {
+  font-weight: bold;
+}
+.pembungkus .informasi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pembungkus .informasi .info {
+  width: 170px;
+  height: 170px;
+  margin: 20px;
+  border-radius: 40px;
+  border: 1px solid blue;
+  box-shadow: 0 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* container 3 */
+.container3 {
+  padding: 30px 0;
+  background-color: rgb(46, 46, 165);
+}
+
+.container3 h4 {
+  text-align: center;
+  color: white;
+}
+
+.container3 .jadwal {
+  width: 90vw;
+  margin: 30px auto 0;
+  display: grid;
+  grid-template-areas:
+    'jadwal1 jadwal2'
+    'jadwal3 jadwal4'
+    'jadwal5 jadwal6';
+  grid-template-columns: 49% 49%;
+  gap: 20px;
+  grid-template-rows: auto auto auto;
+}
+
+/* jadwal 1 */
+
+.jadwal1 {
+  grid-area: jadwal1;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal1 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal1 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal1 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal1 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal1 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal1 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 2 */
+
+.jadwal2 {
+  grid-area: jadwal2;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal2 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal2 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal2 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal2 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal2 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal2 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 3 */
+
+.jadwal3 {
+  grid-area: jadwal3;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal3 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal3 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal3 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal3 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal3 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal3 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 4 */
+.jadwal4 {
+  grid-area: jadwal4;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal4 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal4 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal4 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal4 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal4 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal4 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 5 */
+
+.jadwal5 {
+  grid-area: jadwal5;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal5 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal5 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal5 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal5 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal5 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal5 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 6 */
+.jadwal6 {
+  grid-area: jadwal6;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal6 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal6 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal6 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal6 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal6 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal6 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* footer */
+
+footer {
+  background-color: blue;
+  color: white;
+}
+.footer {
+  width: 90%;
+  padding: 20px 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .kiri {
+  width: 30%;
+}
+
+.footer .tengah {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer .tengah img {
+  width: 130px;
+  height: 110px;
+}
+
+.footer .kanan {
+  width: 30%;
+}
+footer .bawah {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .bawah .kotak {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+footer .kotak1 {
+  background-image: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+
+footer .kotak2 {
+  background-image: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+
+footer .kotak3 {
+  background-image: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+footer .kotak4 {
+  background-image: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+
+/* responsive */
+@media (max-width: 1000px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+  .container2 .pemain {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .container2 .p1 {
+    width: 100%;
+    border: 1px solid blue;
+  }
+  .container2 .pemain .identitas {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .container2 .pemain .identitas .p12 {
+    margin: auto;
+  }
+  .container2 .pemain .identitas .biodata {
+    width: 100%;
+  }
+  .pembungkus .informasi {
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .pembungkus .statistik .informasi .info {
+    padding: 40px;
+  }
+  .container3 .jadwal {
+    grid-template-areas:
+      'jadwal1'
+      'jadwal2'
+      'jadwal3'
+      'jadwal4'
+      'jadwal5'
+      'jadwal6';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+  .jadwal1 .skor {
+    width: 65%;
+  }
+  .jadwal2 .skor {
+    width: 65%;
+  }
+  .jadwal3 .skor {
+    width: 65%;
+  }
+  .jadwal4 .skor {
+    width: 65%;
+  }
+  .jadwal5 .skor {
+    width: 65%;
+  }
+  .jadwal6 .skor {
+    width: 65%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .kiri {
+    order: 1;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .footer .tengah {
+    order: 3;
+    width: 90%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer .kanan {
+    order: 2;
+    width: 90%;
+    width: 90%;
+    margin: 10px auto;
+  }
+}

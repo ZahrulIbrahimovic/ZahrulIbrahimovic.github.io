@@ -1,0 +1,287 @@
+header {
+  background-color: rgb(54, 43, 199);
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 3;
+  transform: translatey(30px) translateX(20px) scale(1.5);
+}
+header .logo img {
+  width: 50px;
+  height: 50px;
+}
+header .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+ul li {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.gambarr img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  display: none;
+}
+
+/* container 2 */
+/* container3 */
+
+.container3 {
+  /* width: 100vw; */
+  /* height: 40vh; */
+  margin: 40px auto;
+}
+
+.container3 .content {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, blue, rgb(51, 73, 202), blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 h3 {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.container3 .content .tengah {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.container3 .content .tengah img {
+  width: 14vw;
+  height: 13vmax;
+}
+.container3 .content .jadwal {
+  margin: 15px auto 0;
+  color: white;
+  text-align: center;
+}
+
+.container3 .content .jadwal span p {
+  font-weight: bold;
+}
+/* container 4 */
+.container4 {
+  /* width: 100vw; */
+  padding: 20px;
+  background-image: linear-gradient(to bottom, blue, rgb(68, 86, 190));
+}
+
+.container4 h4 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.container4 .content {
+  width: 90%;
+  margin: auto;
+}
+
+.carousel-inner img {
+  filter: brightness(80%);
+}
+
+.scrolling-wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.container4 .scrolling-wrapper .card {
+  flex: 0 0 auto;
+  border-radius: 30px;
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+/* container 5 */
+.container5 {
+  margin: 30px;
+  color: rgb(49, 49, 219);
+}
+.container5 .scrolling-wrapper .card {
+  flex: 0 0 auto;
+  background-image: url(kopi2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  margin: 20px;
+  width: 230px;
+  height: 150px;
+  border: 1px solid blue;
+  box-shadow: 3px 3px 3px blue;
+}
+
+/* footer */
+footer {
+  background-color: blue;
+  color: white;
+}
+.footer {
+  width: 90%;
+  padding: 20px 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .kiri {
+  width: 30%;
+}
+
+.footer .tengah {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer .tengah img {
+  width: 130px;
+  height: 110px;
+}
+
+.footer .kanan {
+  width: 30%;
+}
+footer .bawah {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .bawah .kotak {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+footer .kotak1 {
+  background-image: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+
+footer .kotak2 {
+  background-image: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+
+footer .kotak3 {
+  background-image: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+footer .kotak4 {
+  background-image: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+  .container1 .g1 {
+    transform: none;
+  }
+
+  .container3 h3 {
+    font-size: 19px;
+  }
+
+  .container3 .content .tengah {
+    display: flex;
+    justify-content: center;
+  }
+  .container3 .content .tengah img {
+    width: 25vw;
+    height: 13vmax;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .kiri {
+    order: 1;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .footer .tengah {
+    order: 3;
+    width: 90%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer .kanan {
+    order: 2;
+    width: 90%;
+    width: 90%;
+    margin: 10px auto;
+  }
+}

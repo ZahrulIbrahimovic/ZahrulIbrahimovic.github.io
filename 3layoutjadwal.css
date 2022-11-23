@@ -1,0 +1,665 @@
+header {
+  background-color: rgb(54, 43, 199);
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  transform: translatey(30px) translateX(20px) scale(1.5);
+}
+header .logo img {
+  width: 50px;
+  height: 50px;
+}
+header .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+ul li {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.gambarr img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* container 2 */
+.container2 {
+  /* width: 98.5vw; */
+  /* height: 40vh; */
+  margin: 40px auto;
+}
+
+.container2 .content {
+  width: 90vw;
+  height: 90%;
+  margin: auto;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(51, 73, 202), rgb(20, 20, 209));
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 h3 {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.container2 .content .tengah {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.container2 .content .tengah img {
+  width: 14vw;
+  height: 13vmax;
+}
+.container2 .content .jadwal {
+  margin: 15px auto 0;
+  color: white;
+  text-align: center;
+}
+
+.container2 .content .jadwal span p {
+  font-weight: bold;
+}
+/* akhir container 2 */
+/* container2 */
+.container3 .hh {
+  width: 90%;
+  margin: auto;
+}
+.container3 .jadwal {
+  width: 90%;
+  margin: 40px auto;
+
+  padding: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.container3 .jadwal .atas {
+  height: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.container3 .jadwal .atas img {
+  border-radius: 15px;
+}
+
+.container3 .jadwal .vs {
+  width: 70%;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.container3 .jadwal .vs img {
+  width: 14vw;
+  height: 13vmax;
+}
+
+.container3 .jadwal .skor {
+  width: 55%;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3 .jadwal .tempat {
+  margin: 15px auto 0;
+  color: white;
+  text-align: center;
+}
+
+.container3 .jadwal .tempat span p {
+  font-weight: bold;
+}
+
+/* akhir container 2 */
+/* Container 4 */
+.container4 {
+  background-color: rgb(54, 43, 199);
+  padding: 30px 0;
+  color: white;
+  font-weight: bold;
+  margin: 0 0 50px;
+}
+.container4 h2 {
+  text-align: center;
+}
+
+.container4 .statistik {
+  width: 75%;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container4 .statistik h5 {
+  margin: 25px 0;
+}
+
+.container4 .statistik .tengah {
+  text-align: center;
+}
+
+.container4 .statistik .kanan {
+  text-align: right;
+}
+/* akhir container 4 */
+/* container 5 */
+.container5 {
+  /* width: 98.5vw; */
+  padding: 30px 0;
+  background-color: rgb(46, 46, 165);
+}
+
+.container5 h4 {
+  text-align: center;
+  color: white;
+}
+
+.container5 .jadwal {
+  width: 90vw;
+  margin: 30px auto 0;
+  display: grid;
+  grid-template-areas:
+    'jadwal1 jadwal2'
+    'jadwal3 jadwal4'
+    'jadwal5 jadwal6';
+  grid-template-columns: 49% 49%;
+  gap: 20px;
+  grid-template-rows: auto auto auto;
+}
+
+/* jadwal 1 */
+
+.jadwal1 {
+  grid-area: jadwal1;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal1 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal1 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal1 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal1 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal1 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal1 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 2 */
+
+.jadwal2 {
+  grid-area: jadwal2;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal2 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal2 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal2 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal2 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal2 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal2 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 3 */
+
+.jadwal3 {
+  grid-area: jadwal3;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal3 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal3 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal3 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal3 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal3 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal3 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 4 */
+.jadwal4 {
+  grid-area: jadwal4;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal4 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal4 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal4 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal4 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal4 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal4 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 5 */
+
+.jadwal5 {
+  grid-area: jadwal5;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal5 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal5 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal5 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal5 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal5 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal5 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* jadwal 6 */
+.jadwal6 {
+  grid-area: jadwal6;
+  padding: 30px 0 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgb(20, 20, 209), rgb(45, 56, 209));
+}
+
+.jadwal6 .atas {
+  height: 40px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal6 .atas img {
+  border-radius: 15px;
+}
+
+.jadwal6 .vs {
+  width: 90%;
+  height: 80px;
+  padding: 0 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jadwal6 .vs h2 {
+  color: white;
+  align-self: flex-end;
+}
+.jadwal6 .skor {
+  width: 78%;
+  padding: 0 30px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jadwal6 .tempat {
+  text-align: center;
+  color: white;
+}
+
+/* footer */
+footer {
+  background-color: blue;
+  color: white;
+}
+.footer {
+  width: 90%;
+  padding: 20px 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .kiri {
+  width: 30%;
+}
+
+.footer .tengah {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer .tengah img {
+  width: 130px;
+  height: 110px;
+}
+
+.footer .kanan {
+  width: 30%;
+}
+footer .bawah {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .bawah .kotak {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+footer .kotak1 {
+  background-image: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+
+footer .kotak2 {
+  background-image: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+
+footer .kotak3 {
+  background-image: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+footer .kotak4 {
+  background-image: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+
+  .container2 h3 {
+    font-size: 19px;
+  }
+  .container2 .content .tengah {
+    display: flex;
+    justify-content: center;
+  }
+  .container2 .content .tengah img {
+    width: 25vw;
+    height: 13vmax;
+  }
+  .container3 .jadwal .vs {
+    width: 80%;
+  }
+  .container3 .jadwal .vs img {
+    width: 30vw;
+    height: 13vmax;
+  }
+
+  .container5 .jadwal {
+    grid-template-areas:
+      'jadwal1'
+      'jadwal2'
+      'jadwal3'
+      'jadwal4'
+      'jadwal5'
+      'jadwal6';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+  .jadwal1 .skor {
+    width: 65%;
+  }
+  .jadwal2 .skor {
+    width: 65%;
+  }
+  .jadwal3 .skor {
+    width: 65%;
+  }
+  .jadwal4 .skor {
+    width: 65%;
+  }
+  .jadwal5 .skor {
+    width: 65%;
+  }
+  .jadwal6 .skor {
+    width: 65%;
+  }
+}
+@media (max-width: 1000px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    display: contents;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    transform: translatey(30px) translateX(20px) scale(2.5);
+  }
+  header .logo img {
+    display: none;
+  }
+  header .profile img {
+    display: none;
+  }
+  .gambarr img {
+    display: flex;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .kiri {
+    order: 1;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .footer .tengah {
+    order: 3;
+    width: 90%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer .kanan {
+    order: 2;
+    width: 90%;
+    width: 90%;
+    margin: 10px auto;
+  }
+}
